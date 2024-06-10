@@ -9,7 +9,7 @@ const Services = () => {
         <p>Explore our photography services and packages.</p>
         <div className='d-flex column-gap-4 mt-5'>
         <Service title="Wedding" contain="/wedd"/>
-        <Service title="Product Shoot" contain="/product"/>
+        <Service title="Pre-Wedding" contain="/prewedd"/>
         <Service title="Others..." contain="/other"/>
         </div>
         

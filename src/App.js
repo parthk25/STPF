@@ -8,9 +8,9 @@ import Contact from './pages/Contact';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Wedd from './pages/Wedd';
-import Product from './pages/Product';
 import Other from './pages/Other';
-// import Footer from './pages/Footer';
+import Prewedd from './pages/Prewedd';
+import Footer from './pages/Footer';
 
 function App() {
   return (
@@ -39,14 +39,14 @@ function App() {
           <Route path="/wedd">
             <Wedd/>
           </Route>
-          <Route path="/product">
-            <Product/>
+          <Route path="/prewedd">
+            <Prewedd/>
           </Route>
           <Route path="/other">
             <Other/>
           </Route>
         </Switch>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </>
   );

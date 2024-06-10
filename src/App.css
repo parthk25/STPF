@@ -112,3 +112,18 @@ a{
   border-radius: 20px;
   background-color: #EEE7D9;
 }
+
+.other{
+  list-style: none;
+  width: 50%;
+  height: auto;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  margin: auto;
+  padding: 20px;
+  background-color: #EEE7D9;
+}
+
+ul li{
+  margin: 5px 0px;
+}

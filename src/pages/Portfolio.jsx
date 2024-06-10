@@ -25,6 +25,7 @@ import food1 from '../img/FOOD/1J8A9019.JPG'
 import food2 from '../img/FOOD/1J8A8986.JPG'
 import food3 from '../img/FOOD/1J8A9018.JPG'
 import food4 from '../img/FOOD/1J8A8952.JPG'
+import { Link } from 'react-router-dom/cjs/react-router-dom'
 
 const Portfolio = () => {
   return (
@@ -65,7 +66,7 @@ const Portfolio = () => {
           <Food img={food3}/>
           <Food img={food4}/>
         </div>
-        
+        <p className='fs-5 mt-5 text-center'>For Enquire <Link to="/contact" className="text-info text-decoration-underline">Click Here</Link></p>
         {/* <div className="photo-grid mt-5">
         {photos.map(photo => (
           <div key={photo.id}>

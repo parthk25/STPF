@@ -1,5 +1,6 @@
 import React from 'react'
 import own from '../img/1H5A5226.jpg'
+import { Link } from 'react-router-dom/cjs/react-router-dom'
 
 const Aboutus = () => {
   return (
@@ -18,8 +19,13 @@ const Aboutus = () => {
             </div>
           </div>
           <div className='img'>
-            <img src={own} alt="owner"/>
+            <img src={own} alt="owner" />
           </div>
+        </div>
+        <div className='mt-5 d-flex gap-5 justify-content-center'>
+          <p className='fs-5'>For Our Services <Link to="/services" className="text-info text-decoration-underline">Click Here</Link></p>
+          <p className='fs-5'>For Our Work <Link to="/portfolio" className="text-info text-decoration-underline">Click Here</Link></p>
+          <p className='fs-5'>For Enquire <Link to="/contact" className="text-info text-decoration-underline">Click Here</Link></p>
         </div>
       </div>
     </>

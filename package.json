@@ -1,6 +1,5 @@
 {
   "name": "webstpf",
-  "homepage": "https://parthk25.github.io/STPF",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
